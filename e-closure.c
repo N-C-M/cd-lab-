@@ -53,3 +53,56 @@ void main()
 		printf("\n");
 	}
 }
+
+
+/*
+Enter number of states of nfa:  11
+enter total number of links from node:0:     2
+enter the next state:   1
+enter the symbol:       e
+enter the next state:   7
+enter the symbol:       e
+enter total number of links from node:1:  2
+enter the next state:   2
+enter the symbol:       e
+enter the next state:   4
+enter the symbol:       e
+enter total number of links from node:2:  1
+enter the next state:   3
+enter the symbol:       a
+enter total number of links from node:3:  1
+enter the next state:   6
+enter the symbol:       e
+enter total number of links from node:4:  1
+enter the next state:   5
+enter the symbol:       b
+enter total number of links from node:5:  1
+enter the next state:   6
+enter the symbol:       e
+enter total number of links from node:6:  2
+enter the next state:   1
+enter the symbol:       e
+enter the next state:   7
+enter the symbol:       e
+enter total number of links from node:7:  1
+enter the next state:   8
+enter the symbol:       a
+enter total number of links from node:8:  1
+enter the next state:   9
+enter the symbol:       b
+enter total number of links from node:9:  1
+enter the next state:   10
+enter the symbol:       b
+enter total number of links from node:10: 0
+e-closure of state      0 is     01247
+e-closure of state      1 is     124
+e-closure of state      2 is     2
+e-closure of state      3 is     361247
+e-closure of state      4 is     4
+e-closure of state      5 is     561247
+e-closure of state      6 is     61247
+e-closure of state      7 is     7
+e-closure of state      8 is     8
+e-closure of state      9 is     9
+e-closure of state      10 is    10
+*/
